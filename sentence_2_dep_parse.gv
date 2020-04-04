@@ -1,0 +1,17 @@
+digraph unix {
+	node [color=lightblue2 style=filled]
+	size="6,6"
+	"ROOT-0" -> "related-6" [label=root]
+	"such-2" -> "As-1" [label=case]
+	"related-6" -> "such-2" [label="nmod:as"]
+	"related-6" -> ",-3" [label=punct]
+	"related-6" -> "NLP-4" [label=nsubjpass]
+	"related-6" -> "is-5" [label=auxpass]
+	"area-9" -> "to-7" [label=case]
+	"area-9" -> "the-8" [label=det]
+	"related-6" -> "area-9" [label="nmod:to"]
+	"interaction-12" -> "of-10" [label=case]
+	"interaction-12" -> "humani-computer-11" [label=amod]
+	"area-9" -> "interaction-12" [label="nmod:of"]
+	"related-6" -> ".-13" [label=punct]
+}
